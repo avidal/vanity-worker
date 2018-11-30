@@ -27,7 +27,7 @@ async function handleCode(request, url) {
       <html><head>
       <meta name="go-import" content="code.heyviddy.com/${head} git https://github.com/avidal/${head}">
       <meta name="go-source" content="code.heyviddy.com/${head} https://github.com/avidal/${head} https://github.com/avidal/${head}/tree/master{/dir} https://github.com/avidal/${head}/blob/master{/dir}/{file}#L{line}">
-      <meta name="refresh" content="0; url=https://godoc.org/code.heyviddy.com/${pkg}">
+      <meta http-equiv="refresh" content="0; url=https://godoc.org/code.heyviddy.com/${pkg}">
       </head><body>
       Docs: <a href="https://godoc.org/code.heyviddy.com/${pkg}">here</a><br/>
       Code: <a href="https://github.com/avidal/${head}">here</a><br/><br/>
